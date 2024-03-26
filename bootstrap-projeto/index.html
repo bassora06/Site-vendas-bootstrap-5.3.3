@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+
+    <title>Primeiro site com bootstrap</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar bg-body-secondary">
+            <div class="container-fluid"> 
+              <a class="navbar-brand text-primary" href="#">
+                Bassora's Shop
+              </a>
+              <ul class="nav nav-pills justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Loja">Itens</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#Contato">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <section class="container section-home" id="Home">
+            <div class="row">
+              <article class="col  align-self-center">
+                <h1>Seja Bem vindo</h1>
+                <h2>Loja da família Bassora</h2>
+                <br>
+                <a href="#Sobre"><button type="button" class="btn btn-primary btn-lg mt-10">Sobre</button></a>
+              </article>
+              <article class="col">
+                <img src="img/woman.jpg" class="img-fluid" alt="...">
+              </article>
+            </div>
+    </section>
+    <section class="sobre container-fluid bg-secondary bg-opacity-50" id="Sobre">
+        <article class="container p-3">
+            <h2>Sobre nós</h2>
+            <p>Havia uma família vibrante e trabalhadora chamada Bassora, que traçou sua jornada desde as ensolaradas colinas da Itália até as vastas paisagens da internet. O patriarca, Giovanni Bassora, um habilidoso alfaiate de uma pequena cidade italiana, sempre sonhou em expandir os horizontes de sua arte para além das fronteiras físicas de sua terra natal.</p>
+            <p>Com sua esposa, Giulia, e seus três filhos - Marco, Sofia e Luca -, Giovanni decidiu dar o grande salto e emigrar para um novo país em busca de oportunidades. Com muita coragem e determinação, a família Bassora deixou para trás as ruas de paralelepípedos e os campos de oliveiras, rumo a uma nova vida na era digital.</p>
+            <p>Chegando a um novo país, enfrentaram desafios e dificuldades típicas de imigrantes, mas mantiveram sua determinação e espírito empreendedor. Giovanni, com suas habilidades afiadas em design e costura, percebeu o potencial da internet como um mercado global para seus produtos artesanais. Com a ajuda de Marco, o filho mais velho, que possuía habilidades em tecnologia e marketing digital, a família começou a construir sua loja online.</p>
+            <p>Batizada de "Bassora Fashion", a loja oferecia uma variedade de itens de moda, desde roupas elegantes até acessórios artesanais. Cada peça refletia o cuidado e a atenção aos detalhes que eram a marca registrada da família Bassora. Enquanto Giovanni criava as peças com maestria, Giulia, Sofia e Luca gerenciavam o atendimento ao cliente e a logística, garantindo que cada cliente se sentisse especial e recebesse seus produtos com rapidez e eficiência.</p>
+            <a href="#Loja"><button type="button" class="btn btn-primary btn-lg mt-10">Vamos as compras</button></a>
+        </article>
+    </section>
+    <main class="container-fluid p-5" id="Loja">
+            <section class="container text-center">
+                <div class="row p-2">
+                  <div class="col">
+                    <article class="card" style="width: 18rem;">
+                        <img src="img/t-shirt.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Camiseta</h5>
+                          <p class="card-text">Uma ótima escolha para climas quentes, feita com algodão de alta qualidade.</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                      </article>
+                  </div>
+                  <div class="col">
+                    <article class="card col" style="width: 18rem;">
+                        <img src="img/shoes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sapatos</h5>
+                          <p class="card-text">Sapatos com sola de borracha que evitam escorregar, conforto para praticar exercícios.</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                      </article>
+                  </div>
+                  <div class="col">
+                    <article class="card col" style="width: 18rem;">
+                        <img src="img/sweater.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Suéter</h5>
+                          <p class="card-text">O inverno chegou? vista esse suéter de argodão e lã para se esquentar.</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                      </article>
+                  </div>
+                </div>
+              </section>
+              <section class="container text-center ">
+                <div class="row p-2">
+                  <div class="col">
+                    <article class="card" style="width: 18rem;">
+                        <img src="img/pants.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Calça</h5>
+                          <p class="card-text">Calça de moletom para os climas mais frios. Feita com 70% algodão e 30% lycra.</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                      </article>
+                  </div>
+                  <div class="col">
+                    <article class="card col" style="width: 18rem;">
+                        <img src="img/socks.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Par de Meias</h5>
+                          <p class="card-text">Meia de algodão que esquentam os pés no frio e evitam soadeiras quando se prática exercícios.</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                      </article>
+                  </div>
+                  <div class="col">
+                    <article class="card col" style="width: 18rem;">
+                        <img src="img/jacket.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Jaqueta</h5>
+                          <p class="card-text">Jaqueta estilosa para o frio, perfeita para usar em festas a noite e se sentir maneiro.</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                      </article>
+                  </div>
+                </div>
+              </section>
+    </main>
+    <section class="sobre container-fluid bg-secondary bg-opacity-50" id="Contato">
+      <form class="container p-3" >
+          <h2>Casdastre sua opinião</h2>
+          <h3>De seu feedback sobre nossos produtos</h3>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Email</span>
+            <input type="text" class="form-control" placeholder="Exemplo@algo.com" aria-label="Email" aria-describedby="basic-addon1">
+          </div>
+          
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Nome</span>
+            <input type="text" class="form-control" aria-label="Nome">
+          </div>
+
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Sobrenome</span>
+            <input type="text" class="form-control"  aria-label="Sobrenome">
+          </div>
+          
+          <div class="input-group">
+            <span class="input-group-text">Opinião sobre produtos</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+          <br>
+          <button type="button" class="btn btn-primary btn-lg mt-10">Enviar feedback</button>
+      </form>
+    </section>
+
+    <footer class="bg-secondary bg-opacity-50 text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="bi bi-facebook"></i></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #e60e8c;"
+              href="#!"
+              role="button"
+              ><i class="bi bi-instagram"></i></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #52dd12;"
+              href="#!"
+              role="button"
+              ><i class="bi bi-whatsapp"></i></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+              ><i class="bi bi-twitter-x"></i></i
+            ></a>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-dark bg-opacity-50">
+          © 2024 Copyright: Todos os direitos reservados Lucas Bassora da Silva
+        </div>
+        <!-- Copyright -->
+      </footer>
+  </body>
+</html>
